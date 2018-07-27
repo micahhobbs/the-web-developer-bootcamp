@@ -5,10 +5,14 @@ html {
     box-sizing: inherit;
   }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #container {
     width: 360px;
     margin: 100px auto;
-    border: 1px solid black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     background-color: #f7f7f7;
 }
 
@@ -16,3 +20,27 @@ html {
     color: gray;
     text-decoration: line-through;
 }
+
+h1 {
+    background-color: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+}
+
+/* Every other li e.g. every second! */
+li:nth-child(2n)
